@@ -1,6 +1,6 @@
 <div class="container">
         <div class="header">
-                <div class="container mt-3 ">
+                <div class="container mt-3">
                     <ul class="nav justify-content-end">
                         <li class="nav-item">
                         <a class="nav-link" href="#"><img src="photos/socialicon/facebook.png" alt="facebook"  style="height: 23px;"></a>
@@ -14,11 +14,11 @@
                     </ul>
                 </div>
         </div>
-    
-	
-	
-				<nav class="navbar navbar-expand-lg" id="first" >
-					<div class="container-fluid " id="second">
+
+		<div class="navsection">
+				<nav class="navbar navbar-expand-lg">
+					<div class="container-fluid ">
+						<img src="photos/socialicon/jobseeker.png" alt="img" width="50px">
 						<a class="navbar-brand" href="">Job Portal BD</a>
 							<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
@@ -53,3 +53,4 @@
 						</div>
 					</div>
 				</nav>
+		</div>

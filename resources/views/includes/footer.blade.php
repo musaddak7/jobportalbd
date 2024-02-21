@@ -1,7 +1,6 @@
 
 <div class="footersection">
-    <div class="card text-center" style="background:springgreen;border-radius: 0px;line-height: 10px;
-">
+    <div class="card text-center">
     <div class="card-header">
     <h3> About Jobportal.com.bd</h3>
     </div>

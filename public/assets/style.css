@@ -1,23 +1,45 @@
-.header{background:black; height:40px; margin-bottom:0px}
-#first{background-color: springgreen;
-    color: white;
-    margin: 1px 0 1px;
-    box-shadow: 1px 1px 8px 0px #7a7676;}
-#second{padding: 5px;
-        border-radius: 2px;
-        margin-left: 115px;
-        margin-right: 115px;}
-.mainsection{height:900px auto; padding:30px;background:silver;
-
+#first{background: whitesmoke;
+    padding: 0px; }
+.header{background: black;
+    height: 40px;
+    margin-bottom: 0px;
+    margin-top: -16px;}
+.navsection{
+    background:springgreen;
+}
+.navbar .container-fluid{
+    padding: 5px 100px 5px;
 
 }
-.col{border: 1px solid;
-    border-radius: 5px;
-    background: white;
-    height: 603px;
-    padding: 34px;  
-    line-height: 60px;
+.navbar ul a{
     font-size: 20px;
-    margin-right: 9px;
-
 }
+.funcatname{
+    float: left;
+    background-color: aliceblue;
+    padding: 8px 40px 5px;
+    line-height: 30px;
+    width: 600px;
+    margin-left: 150px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-top: 10px;
+  margin-bottom: 10px;
+}
+.govmentjob{padding:8px 40px 5px;
+    background-color: beige;
+    float: right;
+    margin-right: 150px;
+    width: 382px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-top: 10px;
+  margin-bottom: 10px;
+}
+.footersection .card{
+    background:springgreen;border-radius: 0px;line-height: 10px;
+}
+.card-body h5{
+    font-size: 17px;
+    line-height: 15px;
+  }
