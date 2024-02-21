@@ -7,3 +7,17 @@
         border-radius: 2px;
         margin-left: 115px;
         margin-right: 115px;}
+.mainsection{height:900px auto; padding:30px;background:silver;
+
+
+}
+.col{border: 1px solid;
+    border-radius: 5px;
+    background: white;
+    height: 603px;
+    padding: 34px;  
+    line-height: 60px;
+    font-size: 20px;
+    margin-right: 9px;
+
+}
