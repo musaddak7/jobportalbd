@@ -1,7 +1,7 @@
 @extends('master') 
 @section('content') 
-<div class="mainsection" style="background:silver;">
-  <div class="funcatname">
+<div class="mainsection clear">
+  <div class="funcatname clear">
     <h3>Browse Category</h3>
     <hr>
     <div class="row">
@@ -13,7 +13,7 @@
       </div>
     </div>
   </div>
-  <div class="govmentjob" style="float:right">
+  <div class="govmentjob clear">
     <h3>Gov. Job</h3>
     <hr>
     <div class="row">
@@ -26,10 +26,33 @@
         </ul>
       </div>
     </div>
-  </div><div style="clear:both"></div>
+  </div>
 </div>
-<div style="clear:both"></div>
-<div class="mainsecond" style="background:red; height:500px">
+<div class="mainsecond clear">
+  <div class="row" style="margin: 15px 141px 15px;
+  width: 1165px;">
+            <div class="col-md-2"><h5>Training</h5><p>This is training section</p>
 
-</div>
-<div style="clear:both"></div> @endsection
+            </div><div class="col-md-2"  ><h5>Training</h5><p>This is training section</p>
+
+            </div><div class="col-md-2"  ><h5>Training</h5><p>This is training section</p>
+
+            </div><div class="col-md-2"  ><h5>Training</h5><p>This is training section</p>
+
+            </div><div class="col-md-2"  ><h5>Training</h5><p>This is training section</p>
+
+            </div><div class="col-md-2"  ><h5>Training</h5><p>This is training section</p>
+
+            </div><div class="col-md-2"  ><h5>Training</h5><p>This is training section</p>
+
+            </div><div class="col-md-2"  ><h5>Training</h5><p>This is training section</p>
+
+            </div><div class="col-md-2"  ><h5>Training</h5><p>This is training section</p>
+
+            </div><div class="col-md-2"  ><h5>Training</h5><p>This is training section</p>
+
+            </div>
+            
+
+    </div>
+ @endsection

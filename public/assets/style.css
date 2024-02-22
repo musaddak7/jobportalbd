@@ -1,3 +1,4 @@
+.clear{overflow: hidden;}
 #first{background: whitesmoke;
     padding: 0px; }
 .header{background: black;
@@ -12,30 +13,37 @@
 
 }
 .navbar ul a{
-    font-size: 20px;
+    font-size: 17px;
+}
+.navbar ul a:hover{
+    color: rgb(232, 80, 144);
 }
 .funcatname{
     float: left;
-    background-color: aliceblue;
+    background-color:white;
     padding: 8px 40px 5px;
     line-height: 30px;
     width: 600px;
     margin-left: 150px;
-    border: 2px solid;
+    border: 1px solid;
     border-radius: 5px;
     margin-top: 10px;
   margin-bottom: 10px;
 }
-.govmentjob{padding:8px 40px 5px;
-    background-color: beige;
+.govmentjob{
+    float:right;
+    padding:8px 40px 5px;
+    background-color: #fffdec;
     float: right;
     margin-right: 150px;
     width: 382px;
-    border: 2px solid;
+    border: 1px solid;
     border-radius: 5px;
     margin-top: 10px;
   margin-bottom: 10px;
 }
+.mainsection{background:#eee;}
+.mainsecond{background:gray; height:500px}
 .footersection .card{
     background:springgreen;border-radius: 0px;line-height: 10px;
 }
@@ -43,3 +51,15 @@
     font-size: 17px;
     line-height: 15px;
   }
+  .col-md-2{
+    margin: 5px;
+    margin-top: 5px;
+  background: floralwhite;
+  height: 100px;
+  border-radius: 4px;
+  padding: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+  border: 1px solid;
+  }
+  .col-md-2:hover{ box-shadow: 3px 3px;color:blue;}
