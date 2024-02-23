@@ -7,21 +7,21 @@
                     </div>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-					        <img src="photos/receptionists.jpg" class="d-block w-100" alt="..." height="500px" width="500px">
+					        <img src="photos/banner-1.jpg" class="d-block w-100" alt="banner-1" style="height:38rem">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>First slide label</h5>
                             <p>Some representative placeholder content for the first slide.</p>
                         </div>
 					</div>
 					<div class="carousel-item">
-					        <img src="photos/office.jpg" class="d-block w-100" alt="..." height="500px" width="500px">
+					        <img src="photos/banner-2.jpg" class="d-block w-100" alt="..."style="height:38rem">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Second slide label</h5>
                             <p>Some representative placeholder content for the second slide.</p>
                         </div>
 					</div>
 					<div class="carousel-item">
-					        <img src="photos/people.jpg" class="d-block w-100" alt="..." height="500px" width="500px">
+					        <img src="photos/banner-3.jpg" class="d-block w-100" alt="..." style="height:38rem">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Third slide label</h5>
                             <p>Some representative placeholder content for the third slide.</p>

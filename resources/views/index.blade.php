@@ -1,15 +1,21 @@
 @extends('master') 
+
 @section('content') 
+@include ("includes/slider")
 <div class="mainsection clear">
   <div class="funcatname clear">
     <h3>Browse Category</h3>
     <hr>
     <div class="row">
       <div class="col-md-6">
-        <ul> @foreach($funcategories->chunk(ceil($funcategories->count() / 2))->first() as $category) <li>{{$category->funcatname }}</li> @endforeach </ul>
+        <ul> @foreach($cat->chunk(ceil($cat->count() / 2))->first() as $cati) 
+          <li><a href="jobdetails">{{$cati->name }}</a></li> 
+          @endforeach </ul>
       </div>
       <div class="col-md-6">
-        <ul> @foreach($funcategories->chunk(ceil($funcategories->count() / 2))->last() as $category) <li>{{$category->funcatname }}</li> @endforeach </ul>
+        <ul> @foreach($cat->chunk(ceil($cat->count() / 2))->last() as $cati) 
+        <li><a href="">{{$cati->name }}</a></li>
+        @endforeach </ul>
       </div>
     </div>
   </div>
@@ -29,8 +35,8 @@
   </div>
 </div>
 <div class="mainsecond clear">
-  <div class="row" style="margin: 15px 141px 15px;
-  width: 1165px;">
+  <div class="row" style="margin: 30px 146px 30px;
+  width: 93%;">
             <div class="col-md-2"><h5>Training</h5><p>This is training section</p>
 
             </div><div class="col-md-2"  ><h5>Training</h5><p>This is training section</p>

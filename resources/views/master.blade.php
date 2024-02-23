@@ -4,8 +4,8 @@
 
         @include ("includes/nav")
 
-         <!--navbar -->
-         @include ("includes/slider")
+         <!--slider 
+         @include ("includes/slider")-->
 
          <!--content -->
          @yield('content')

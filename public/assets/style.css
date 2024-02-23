@@ -8,6 +8,9 @@
 .navsection{
     background:springgreen;
 }
+.navsection .navbar{
+  padding: 0%;
+}
 .navbar .container-fluid{
     padding: 5px 100px 5px;
 
@@ -23,27 +26,40 @@
     background-color:white;
     padding: 8px 40px 5px;
     line-height: 30px;
-    width: 600px;
+    width:54%;
     margin-left: 150px;
     border: 1px solid;
-    border-radius: 5px;
-    margin-top: 10px;
-  margin-bottom: 10px;
+    border-radius: 8px;
+    margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: 1px 1px 7px 0px black;
+  border: 1px solid ghostwhite;
 }
 .govmentjob{
     float:right;
     padding:8px 40px 5px;
     background-color: #fffdec;
-    float: right;
     margin-right: 150px;
-    width: 382px;
+    width: 25%;
     border: 1px solid;
     border-radius: 5px;
-    margin-top: 10px;
-  margin-bottom: 10px;
+    margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: 1px 1px 7px 0px black;
+  border: 1px solid ghostwhite;
+  
 }
 .mainsection{background:#eee;}
-.mainsecond{background:gray; height:500px}
+.col-md-6 ul{padding:0px;}
+.col-md-6 li{
+  list-style:none;
+
+}
+.col-md-6 a{text-decoration: none;  color: black;}
+.col-md-6 a:hover{
+  color:green;
+}
+/* .mainsecond{background:gray; height:500px} */
 .footersection .card{
     background:springgreen;border-radius: 0px;line-height: 10px;
 }
@@ -63,3 +79,7 @@
   border: 1px solid;
   }
   .col-md-2:hover{ box-shadow: 3px 3px;color:blue;}
+/* .section-5 .row{background: #eee;padding: 70px 0px 70px;
+  margin: 0px;
+
+} */
