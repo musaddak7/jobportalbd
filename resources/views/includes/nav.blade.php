@@ -14,7 +14,6 @@
                     </ul>
                 </div>
         </div>
-
 		<div class="navsection">
 				<nav class="navbar navbar-expand-lg">
 					<div class="container-fluid ">
@@ -25,13 +24,11 @@
 							</button>
 						 <div class="collapse navbar-collapse" id="navbarScroll">
 								<form class="d-flex mx-auto" role="search">
-								<input class="form-control me-2" type="search" placeholder="Search Your Job" aria-label="Search">
+								<input class="form-control me-2" type="search" placeholder="Search Your Job" aria-label="Search" style="width: 413px;">
 								<button class="btn btn-outline-success" type="submit">Search</button>
 								</form>
 							 <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-								<li class="nav-item">
-								<a class="nav-link active" aria-current="page" href="#">Myjobs</a>
-								</li>
+								
 								<li class="nav-item">
 								<a class="nav-link" href="/createjob">Post Job</a>
 								</li>

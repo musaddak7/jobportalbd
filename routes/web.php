@@ -22,6 +22,7 @@ Route::get('/', function () {
 Route::view("index","index");
 Route::view("jobdetails","jobdetails");
 Route::view("createjob","createjob");
+Route::view("jobs","jobs");
 Route::get("/",[CategoryController::class,"index"]);
 Route::get("/createjob",[CreateJobController::class,"createjob"]);
 Route::post("/createjob",[CreateJobController::class,"insertjob"]);

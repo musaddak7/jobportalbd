@@ -24,37 +24,53 @@
 .funcatname{
     float: left;
     background-color:white;
-    padding: 8px 40px 5px;
+    padding: 30px 50px 30px;
     line-height: 30px;
     width:54%;
     margin-left: 150px;
     border: 1px solid;
     border-radius: 8px;
     margin-top: 40px;
-  margin-bottom: 40px;
-  box-shadow: 1px 1px 7px 0px black;
-  border: 1px solid ghostwhite;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 7px 0px black;
+    border: 1px solid ghostwhite;
 }
 .govmentjob{
     float:right;
-    padding:8px 40px 5px;
-    background-color: #fffdec;
+    padding: 30px 50px 30px;
+    background-color:white;
+    color:black;
     margin-right: 150px;
     width: 25%;
     border: 1px solid;
     border-radius: 5px;
     margin-top: 40px;
-  margin-bottom: 40px;
-  box-shadow: 1px 1px 7px 0px black;
-  border: 1px solid ghostwhite;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 7px 0px black;
+    border: 1px solid ghostwhite;
   
 }
 .mainsection{background:#eee;}
-.col-md-6 ul{padding:0px;}
-.col-md-6 li{
+.row .col-md-6 li{
   list-style:none;
+  color: black !important;
 
 }
+.col-lg-4{
+ 
+  border-radius: 3px;
+  margin-bottom:15px;
+}
+
+#popularjob{
+  background:rgba(12, 214, 113, 0.447);
+  padding: 14px 14px 14px;
+  margin: 10px;
+  width: 100%;
+
+
+}
+
 .col-md-6 a{text-decoration: none;  color: black;}
 .col-md-6 a:hover{
   color:green;
@@ -67,7 +83,8 @@
     font-size: 17px;
     line-height: 15px;
   }
-  .col-md-2{
+
+  /* .col-md-2{
     margin: 5px;
     margin-top: 5px;
   background: floralwhite;
@@ -77,9 +94,4 @@
     padding-right: 15px;
     padding-left: 15px;
   border: 1px solid;
-  }
-  .col-md-2:hover{ box-shadow: 3px 3px;color:blue;}
-/* .section-5 .row{background: #eee;padding: 70px 0px 70px;
-  margin: 0px;
-
-} */
+  } */
