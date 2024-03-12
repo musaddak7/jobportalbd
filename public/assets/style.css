@@ -1,16 +1,11 @@
 .clear{overflow: hidden;}
+
+
+.icon-color{
+  color: white !important;
+}
 #first{background: whitesmoke;
     padding: 0px; }
-.header{background: black;
-    height: 40px;
-    margin-bottom: 0px;
-    margin-top: -16px;}
-.navsection{
-    background:springgreen;
-}
-.navsection .navbar{
-  padding: 0%;
-}
 .navbar .container-fluid{
     padding: 5px 100px 5px;
 
@@ -21,47 +16,42 @@
 .navbar ul a:hover{
     color: rgb(232, 80, 144);
 }
-.funcatname{
-    float: left;
-    background-color:white;
-    padding: 30px 50px 30px;
-    line-height: 30px;
-    width:54%;
-    margin-left: 150px;
-    border: 1px solid;
-    border-radius: 8px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    box-shadow: 1px 1px 7px 0px black;
-    border: 1px solid ghostwhite;
+.row .h3{
+  background: white;
 }
-.govmentjob{
-    float:right;
-    padding: 30px 50px 30px;
-    background-color:white;
-    color:black;
-    margin-right: 150px;
-    width: 25%;
-    border: 1px solid;
-    border-radius: 5px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    box-shadow: 1px 1px 7px 0px black;
-    border: 1px solid ghostwhite;
-  
+.mainsection{
+  background-color: #eee;
 }
-.mainsection{background:#eee;}
-.row .col-md-6 li{
-  list-style:none;
-  color: black !important;
-
+.mainsection .container {margin-top: 25px;
+  margin-bottom: 25px;}
+.mainsection .container .row{
 }
-.col-lg-4{
- 
+#left{
+  background: white;
   border-radius: 3px;
-  margin-bottom:15px;
-}
+  box-shadow: 0px 0px 5px 0px #6d6a6a;
+  height: auto;
+ 
 
+}
+#right{
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px 0px #6d6a6a;
+  height: auto;
+  width:22%;
+  margin-left: 20px;
+ 
+}
+.col-lg-4 li{
+  list-style: none;
+  text-decoration: none;
+}
+.col-lg-4 a{
+  text-decoration: none;
+  color: black;
+  line-height: 50px;
+}
 #popularjob{
   background:rgba(12, 214, 113, 0.447);
   padding: 14px 14px 14px;
@@ -95,3 +85,7 @@
     padding-left: 15px;
   border: 1px solid;
   } */
+.mb-3 i {
+    cursor: pointer;
+    padding-right: 15px;
+}
