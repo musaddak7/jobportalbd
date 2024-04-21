@@ -9,6 +9,8 @@ use App\Models\Category;
 use App\Models\JobType;
 use App\Models\User;
 use App\Models\Job;
+use App\Models\JobApplication;
+use App\Models\SavedJob;
 
 class AccountController extends Controller
 {
@@ -58,7 +60,47 @@ class AccountController extends Controller
     }
     }
     public function profile(){
-       return view('front.account.profile');
+        $id=Auth::user()->id;
+        $user=User::where('id',$id)->first();
+       return view('front.account.profile',[
+        'user'=>$user,
+
+       ]);
+    }
+    //update profile
+    public function updateProfile(Request $request) {
+
+        $id = Auth::user()->id;
+
+        $validator = Validator::make($request->all(),[
+            'name' => 'required|min:5|max:20',
+            'email' => 'required|email|unique:users,email,'.$id.',id'
+        ]);
+
+
+        if ($validator->passes()) {
+
+            $user = User::find($id);
+            $user->name = $request->name;
+            $user->email = $request->email;
+            $user->mobile = $request->mobile;
+            $user->designation = $request->designation;
+            $user->save();
+
+            session()->flash('success','Profile updated successfully.');
+
+            return response()->json([
+                'status' => true,
+                'errors' => []
+            ]);
+
+        } else {
+            return response()->json([
+                'status' => false,
+                'errors' => $validator->errors()
+            ]);
+        }
+
     }
     public function logout(){
         Auth::logout();
@@ -104,5 +146,76 @@ class AccountController extends Controller
         }else{
             return back()->with('fail', 'insert failed');
         }
+    }
+
+    
+    //show all applied jobs
+    public function myJobApplication(){
+        $jobApplications=JobApplication::where('user_id',Auth::user()->id)
+        ->with(['job','job.jobType'])
+        ->orderBy('created_at','DESC')
+        ->get();
+       return view('front.account.job.my_jobs_applications',[
+        'jobApplications'=>$jobApplications
+       ]); 
+    }
+    public function removeJobs(Request $request){
+        $removeJob = JobApplication::where([
+                                    'id' => $request->id, 
+                                    'user_id' => Auth::user()->id]
+                                )->first();
+        
+        if ($removeJob == null) {
+            session()->flash('error','Job not found');
+            return response()->json([
+                'status' => false,                
+            ]);
+        }
+
+        JobApplication::find($request->id)->delete();
+        session()->flash('success','Job removed successfully.');
+
+        return response()->json([
+            'status' => true,                
+        ]);
+
+    }
+
+    //for show saved job
+    public function savedJobs(){
+        // $jobApplications=JobApplication::where('user_id',Auth::user()->id)
+        // ->with(['job','job.jobType'])
+        // ->orderBy('created_at','DESC')
+        // ->get();
+        $savedJobs=SavedJob::where([
+            'user_id'=>Auth::user()->id
+        ])
+        ->with(['job','job.jobType'])
+        ->paginate(10);
+       return view('front.account.job.saved-jobs',[
+        'savedJobs'=>$savedJobs
+       ]); 
+
+    }
+    public function removeSavedJob(Request $request){
+        $savedJob = SavedJob::where([
+                                    'id' => $request->id, 
+                                    'user_id' => Auth::user()->id]
+                                )->first();
+        
+        if ($savedJob == null) {
+            session()->flash('error','Job not found');
+            return response()->json([
+                'status' => false,                
+            ]);
+        }
+
+        SavedJob::find($request->id)->delete();
+        session()->flash('success','Job removed successfully.');
+
+        return response()->json([
+            'status' => true,                
+        ]);
+
     }
 }
