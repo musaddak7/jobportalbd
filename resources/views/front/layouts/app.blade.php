@@ -32,7 +32,7 @@
                 My Account
               </a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#">
                 <i class="fa-solid fa-circle-info"></i>
                 Contact Us
@@ -43,11 +43,17 @@
                 <i class="fa-solid fa-circle-check"></i>
                 About Us
               </a>
-            </li>
+            </li> -->
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="{{route('account.savedJobs')}}">
                 <i class="fa-solid fa-heart"></i>
                 Save Job
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{route('account.myJobApplication')}}">
+                <i class="fa-solid fa-heart"></i>
+                Applied Job
               </a>
             </li>
          
@@ -82,11 +88,15 @@
                   <li>
                     <a class="dropdown-item" href="/register">SignIn</a>
                   </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Admin</a>
-                  </li>
+
                 </ul> @else <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">{{Auth::user()->name}}</a>
                 <ul class="dropdown-menu">
+                  
+                @if(Auth::user()->role == 'admin')
+                  <li>
+                    <a class="dropdown-item" href="{{route('admin.dashboard')}}">Admin</a>
+                  </li>
+                  @endif
                   <li>
                     <a class="dropdown-item" href="/profile">My Account</a>
                   </li>
@@ -94,6 +104,7 @@
               </li>
 
         </ul>
+        <a href="/signin"><button class="btn btn-primary">Recruitment</button></a>
       </div>
     </div>
   </nav>

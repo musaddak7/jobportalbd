@@ -5,14 +5,14 @@
   <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-touch="true" >
     <div class="carousel-inner"style="height:30rem">
       <div class="carousel-item active">
-        <img src="assets/images/banner-1.jpg" class="d-block w-100" alt="Banner image">
+        <img src="assets/images/banner-2.jpg" class="d-block w-100" alt="Banner image">
         <div class="carousel-caption d-none d-md-block">
           <h5>First slide label</h5>
           <p>Some representative placeholder content for the first slide.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="assets/images/banner-2.jpg" class="d-block w-100" alt="Banner image">
+        <img src="assets/images/banner-1.jpg" class="d-block w-100" alt="Banner image">
         <div class="carousel-caption d-none d-md-block">
           <h5>Second slide label</h5>
           <p>Some representative placeholder content for the second slide.</p>
@@ -128,7 +128,9 @@
                             <p>Find your gov. job here</p>
                             <div class="row">
                             <ul> 
-                            <li><a href="jobs"><i class="fa-solid fa-play"></i>&nbsp;Did you mean </a></li>
+                              @foreach($gov_jobs as $gov_job)
+                            <li><a href="{{route('gov_jobs', $gov_job->id)}}"><i class="fa-solid fa-play"></i>&nbsp;{{$gov_job->title}} </a><br/><span>{{$gov_job->source}}</span></li>
+                            @endforeach
                             </ul>
                         </div>
                         </div>
