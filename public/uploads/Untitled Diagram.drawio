@@ -1,0 +1,136 @@
+<mxfile host="app.diagrams.net" modified="2024-05-11T08:19:53.211Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="zRPXvvtGlowQdPtvPhLU" version="24.4.0" type="github">
+  <diagram name="Page-1" id="JDeU1fKOWqd_0nVfCLQT">
+    <mxGraphModel dx="1050" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kqFVeq-HxjZUtGfvrv-e-17" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 14px;&quot;&gt;Show Applied Jobs&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kqFVeq-HxjZUtGfvrv-e-1" target="kqFVeq-HxjZUtGfvrv-e-3">
+          <mxGeometry x="-0.0448" y="10" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="193" y="280" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kqFVeq-HxjZUtGfvrv-e-19" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 14px;&quot;&gt;View Applicant&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kqFVeq-HxjZUtGfvrv-e-1" target="kqFVeq-HxjZUtGfvrv-e-5">
+          <mxGeometry x="-0.0112" y="-10" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="200" />
+              <mxPoint x="663" y="200" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kqFVeq-HxjZUtGfvrv-e-21" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Verdana&quot;&gt;View Jobs&lt;br&gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kqFVeq-HxjZUtGfvrv-e-1" target="kqFVeq-HxjZUtGfvrv-e-6">
+          <mxGeometry x="0.0353" y="-10" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="310" />
+              <mxPoint x="663" y="310" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kqFVeq-HxjZUtGfvrv-e-1" value="0" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="340" y="130" width="160" height="200" as="geometry">
+            <mxRectangle x="340" y="130" width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kqFVeq-HxjZUtGfvrv-e-2" value="&lt;h2&gt;&lt;b style=&quot;font-size: 17px;&quot;&gt;Job Portal BD&lt;/b&gt;&lt;/h2&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="kqFVeq-HxjZUtGfvrv-e-1">
+          <mxGeometry x="4" y="74" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kqFVeq-HxjZUtGfvrv-e-10" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 14px;&quot;&gt;Apply Job&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kqFVeq-HxjZUtGfvrv-e-3" target="kqFVeq-HxjZUtGfvrv-e-1">
+          <mxGeometry x="0.033" y="-10" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="220" />
+              <mxPoint x="160" y="80" />
+              <mxPoint x="420" y="80" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kqFVeq-HxjZUtGfvrv-e-11" value="&lt;font face=&quot;Verdana&quot;&gt;Create Profile&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry x="0.1363" y="-10" relative="1" as="geometry">
+            <mxPoint x="193.5" y="220" as="sourcePoint" />
+            <mxPoint x="381" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="179" y="220" />
+              <mxPoint x="179" y="110" />
+              <mxPoint x="380" y="110" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kqFVeq-HxjZUtGfvrv-e-12" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 14px;&quot;&gt;Search Job&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="kqFVeq-HxjZUtGfvrv-e-3">
+          <mxGeometry x="0.3043" y="-10" relative="1" as="geometry">
+            <mxPoint x="340" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="230" />
+              <mxPoint x="200" y="160" />
+              <mxPoint x="340" y="160" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kqFVeq-HxjZUtGfvrv-e-23" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Save Jobs&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kqFVeq-HxjZUtGfvrv-e-3" target="kqFVeq-HxjZUtGfvrv-e-1">
+          <mxGeometry x="0.2" y="-10" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="165" y="350" />
+              <mxPoint x="380" y="350" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kqFVeq-HxjZUtGfvrv-e-3" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 15px;&quot;&gt;Jobseeker&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="220" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kqFVeq-HxjZUtGfvrv-e-18" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 14px;&quot;&gt;Create Jobs&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kqFVeq-HxjZUtGfvrv-e-5" target="kqFVeq-HxjZUtGfvrv-e-1">
+          <mxGeometry x="-0.0256" y="10" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="663" y="80" />
+              <mxPoint x="460" y="80" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kqFVeq-HxjZUtGfvrv-e-28" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Verdana&quot;&gt;View Created Post&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kqFVeq-HxjZUtGfvrv-e-5" target="kqFVeq-HxjZUtGfvrv-e-1">
+          <mxGeometry x="0.0526" y="20" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="110" />
+              <mxPoint x="500" y="110" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kqFVeq-HxjZUtGfvrv-e-5" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 15px;&quot;&gt;Recruiter&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="120" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kqFVeq-HxjZUtGfvrv-e-20" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 14px;&quot;&gt;Create Categories&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kqFVeq-HxjZUtGfvrv-e-6" target="kqFVeq-HxjZUtGfvrv-e-1">
+          <mxGeometry x="0.1233" y="10" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kqFVeq-HxjZUtGfvrv-e-22" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 14px;&quot;&gt;Manage User&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kqFVeq-HxjZUtGfvrv-e-6" target="kqFVeq-HxjZUtGfvrv-e-1">
+          <mxGeometry x="0.0164" y="10" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="685" y="350" />
+              <mxPoint x="460" y="350" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kqFVeq-HxjZUtGfvrv-e-29" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 14px;&quot;&gt;Create Gov. Job&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kqFVeq-HxjZUtGfvrv-e-6" target="kqFVeq-HxjZUtGfvrv-e-1">
+          <mxGeometry x="0.0175" y="10" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="708" y="380" />
+              <mxPoint x="420" y="380" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kqFVeq-HxjZUtGfvrv-e-6" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Verdana&quot;&gt;Admin&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="250" width="90" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
