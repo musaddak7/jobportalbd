@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-16T07:58:21.930Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="A1m_b-wuD1fsLXYlXnef" version="24.4.0" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2024-05-16T07:58:37.526Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="qbHEfpzikl3r5qCb65iQ" version="24.4.0" type="github" pages="10">
   <diagram name="Page-1" id="JDeU1fKOWqd_0nVfCLQT">
     <mxGraphModel dx="1567" dy="598" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1260,7 +1260,7 @@
         <mxCell id="bx-0-zKubbf8GnhiiBuz-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KNwTc1u5IGX2GjChfU8h-1" target="-EiCny20WlhnBP-_Vaz0-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KNwTc1u5IGX2GjChfU8h-1" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 14px;&quot;&gt;Jobseeker&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=center;labelBackgroundColor=none;labelBorderColor=none;fontSize=14;spacing=20;spacingTop=6;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="KNwTc1u5IGX2GjChfU8h-1" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 14px;&quot;&gt;Jobseeker&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=center;labelBackgroundColor=none;labelBorderColor=none;fontSize=14;spacing=20;spacingTop=6;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="40" y="40" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bx-0-zKubbf8GnhiiBuz-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bx-0-zKubbf8GnhiiBuz-1" target="-EiCny20WlhnBP-_Vaz0-2" edge="1">
@@ -1274,10 +1274,10 @@
             <mxPoint x="-103" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bx-0-zKubbf8GnhiiBuz-1" value="&lt;font face=&quot;Verdana&quot;&gt;Recruiter&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=center;labelBackgroundColor=none;labelBorderColor=none;fontSize=14;spacing=20;spacingTop=6;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="bx-0-zKubbf8GnhiiBuz-1" value="&lt;font face=&quot;Verdana&quot;&gt;Recruiter&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=center;labelBackgroundColor=none;labelBorderColor=none;fontSize=14;spacing=20;spacingTop=6;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="40" y="180" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bx-0-zKubbf8GnhiiBuz-2" value="&lt;font face=&quot;Verdana&quot;&gt;Admin&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=center;labelBackgroundColor=none;labelBorderColor=none;fontSize=14;spacing=20;spacingTop=6;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="bx-0-zKubbf8GnhiiBuz-2" value="&lt;font face=&quot;Verdana&quot;&gt;Admin&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=center;labelBackgroundColor=none;labelBorderColor=none;fontSize=14;spacing=20;spacingTop=6;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="40" y="320" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bx-0-zKubbf8GnhiiBuz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-EiCny20WlhnBP-_Vaz0-2" target="-EiCny20WlhnBP-_Vaz0-3" edge="1">
@@ -1300,7 +1300,7 @@
             <mxPoint x="7" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hMCymDQxlMW2l6DJyzB6-1" value="D2" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="hMCymDQxlMW2l6DJyzB6-1" value="D2" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="600" y="240" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hMCymDQxlMW2l6DJyzB6-2" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Jobs&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -1314,7 +1314,7 @@
             <mxPoint x="-1" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hMCymDQxlMW2l6DJyzB6-7" value="D1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="hMCymDQxlMW2l6DJyzB6-7" value="D1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="600" y="110" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hMCymDQxlMW2l6DJyzB6-9" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Categories&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
